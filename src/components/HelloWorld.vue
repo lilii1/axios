@@ -1,6 +1,11 @@
 <template>
 <div id="app">
-  {{ info }}
+  {{ info[0].owner.login}}
+    {{ info[0].owner.id}}
+    {{ info[0].owner.avatar_url}}
+    <div class="avatar">
+    <img src="https://avatars.githubusercontent.com/u/77000009?v=4" alt="avatar">
+    </div>
 </div>
 
   
